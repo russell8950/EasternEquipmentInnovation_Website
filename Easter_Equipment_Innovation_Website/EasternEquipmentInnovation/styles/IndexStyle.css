@@ -1,0 +1,134 @@
+/* setting up the background of the webpage with a background image*/
+html {
+	background-color: white;
+	background-image: url("../img/EEIBackground.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+/*setting up the main of display of the webpage*/
+#main{
+	display: block;
+}
+/*setting the float of the logo image from html*/
+#logo_img{
+	float: left;
+}
+/*editing the style of the header*/
+header{
+	font-family: 'Cabin', sans-serif; /*setting the font*/
+    font-size: 100%; /*setting the font size*/
+	text-align: center; /*setting the text alignment to center*/
+    width: 30%; /*setting the width of the header to 30% of the page*/
+    margin: 0 auto; /*setting a center margin*/
+    border: 3px solid #931420; /*setting borders*/
+    background-color: #fffded; /*setting a background color*/
+}
+/*editing the style of id nav_list*/
+#nav_list{
+	font-family: 'Cabin', sans-serif; /*setting the font*/
+    font-size: 100%; /*setting the font style*/
+    width: 85%; /*setting the width to 85% of the page*/
+	margin: auto; /*setting the margin to auto*/
+    margin-top: 10px; /*setting a gap of 10 pixels between the blocks*/
+    border: 3px solid #931420; /*setting the border*/
+    background-color: #fffded; /*setting the color of the background*/
+	white-space: nowrap; /*nowrap on whitespace*/
+	text-align: center; /*aligning the text to center*/
+	padding: 10px; /*10 pixel padding*/
+}
+/*editing for the nav_item class*/
+.nav_item{
+	text-align:center; /*aligning the text to center*/
+	padding-left:5px; /*left padding 5 pixels*/
+	padding-right:5px; /*right padding 5 pixels*/
+	display: inline; /*giving a inline display*/
+}
+/*editing the id purpose*/
+#purpose{
+	font-family: 'Cabin', sans-serif; /*setting the font*/
+    font-size: 150%; /*setting the font size*/
+    width: 85%; /*setting the width to 85% of the page*/
+	height: auto; /*setting the height to auto adjust*/
+    margin: auto; /*setting the margin to auto adjust*/
+	margin-top: 10px; /*setting the margin above to seperate 10 pixels*/
+    border: 3px solid #931420; /*setting borders*/
+    background-color: #fffded; /*setting the background color of the box*/
+	padding: 5px; /*setting a 5pixel padding*/
+	overflow:hidden; /*hiding overflow for the box*/
+}
+/*editing the class products*/
+.products {
+	font-family: 'Cabin', sans-serif; /*setting the font*/
+    font-size: 100%; /*setting the font size*/
+}
+/*editing the id adrian*/
+#adrian{
+	float: left; /*setting the image to float left*/
+	position: relative; /*setting position to relative*/
+    margin: 0 10px 0 0; /*setting the right margin 10 pixels*/
+	clear:both; /*using clear to remove any float problems*/
+	display:table; /*displaying tabel*/
+}
+/*editing id message*/
+#message{
+	margin: 0 5px 0 5px; /*editing the left and right margins 5 pixels*/
+}
+/*editing the footer tag*/
+footer{
+	clear: both; /*using clear to remove float problems*/
+	text-align:center; /*aligning text to center*/
+}
+/*editing the id verify*/
+#verify{
+	font-family: 'Cabin', sans-serif; /*setting the font*/
+    font-size: 100%; /*setting the font size*/
+	float: inherit; /*setting float to inherit*/
+	width: 10%; /*setting width to 10% of the page*/
+    margin: 0 auto; /*setting margin to auto center*/
+    border: 3px solid #931420; /*setting the border color*/
+    background-color: #fffded; /*setting the background color of box*/
+}
+/*subscription form */
+#subscription{
+	float:left; /*setting float to left*/
+}
+/*editing the forms class*/
+.forms{
+	margin:10px; /*setting margin size to 10 pixels*/
+	outline-style:solid; /* outline solid*/
+	outline-color:#a3a3a3; /*setting the color of the outline*/
+	float:left; /*setting the float left*/
+	height:auto; /*auto adjusting height*/
+}
+/*editing the subcheck class*/
+.subcheck{
+	margin-left: 50px; /*setting a left margin of 50 pixels*/
+}
+/*editing the input_text class*/
+.input_text{
+	color:#a3a3a3; /*setting the color of the text*/
+}
+/*editing the form_title class*/
+.form_title{
+	text-decoration: underline; /*setting the title of the forms to underline*/
+}
+/*editing the imgBarrier id*/
+#imgBarrier{
+	width: 65%; /*setting the width to 65%*/
+	height: 65%;/*setting the height to 65%*/
+}
+/*editing the mainImg id*/
+#mainImg{
+	border: 5px solid black; /*setting the border color*/
+	width: 400px;/*setting the width to 400 pixels*/
+	height: 400px;/*setting the height to 400 pixels*/
+}
+/*used to highlight nav bar*/
+.nav_light{
+	/*change background color to red*/
+	background-color:#FF0000;
+}
+.thumb{
+	width: 5vw;
+	height: auto;
+}
